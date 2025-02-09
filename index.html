@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button class="yes-button" id="yesButton">Yes</button>
+            <button class="no-button" id="noButton">No</button>
+        </div>
+        <div class="gif_container">
+            <img src="https://i.pinimg.com/originals/cc/e6/86/cce686dd933fa88f702f3d3c46cedf42.gif" alt="Cute GIF">
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Ensure functions are hooked to buttons after the script is loaded
+        document.getElementById("yesButton").addEventListener("click", handleYes);
+        document.getElementById("noButton").addEventListener("click", handleNo);
+    </script>
+</body>
+</html>
